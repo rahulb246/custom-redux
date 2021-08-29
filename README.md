@@ -1,7 +1,7 @@
 # custom-redux
 
 Usage sample:
-
+```javascript
 // createStore(reducer, preloadedState, enhancer)
 const store = createStore(reducer, initialState);
 /**
@@ -28,3 +28,4 @@ store.dispatch({
     title: "..."
   }
 });
+```
